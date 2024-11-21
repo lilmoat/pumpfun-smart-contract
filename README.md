@@ -18,6 +18,10 @@ In here, you can see the creation transaction, buy and sell transaction and with
 ```
 - Here's IDL structure of original pump.fun and new forked pump.fun project I have completed
 
+## Recording of pumpfun smart contract test process, you can see every step with simulation logs
+
+https://github.com/user-attachments/assets/54606cb9-3be0-49a9-a92d-2759d0648f4b
+
 
 ### Raydium migration and other detailed code are reserved for private, you can contact me for more understanding about the project and other features
 
