@@ -18,6 +18,12 @@ In here, you can see the creation transaction, buy and sell transaction and with
 ```
 - Here's IDL structure of original pump.fun and new forked pump.fun project I have completed
 
+&emsp;&emsp;&emsp;https://github.com/Rabnail-SOL/Solana-Pumpfun-Smart-Contract-Forking/blob/main/target/deploy/bonding_curve.json
+
+&emsp;&emsp;&emsp;https://github.com/Rabnail-SOL/Solana-Pumpfun-Smart-Contract-Forking/blob/main/target/deploy/bonding_curve.json
+
+https://github.com/Rabnail-SOL/Solana-Pumpfun-Smart-Contract-Forking/blob/main/target/deploy/pump-fun-IDL_original.json
+
 ## Recording of pumpfun smart contract test process
 
 https://github.com/user-attachments/assets/54606cb9-3be0-49a9-a92d-2759d0648f4b
