@@ -1,40 +1,26 @@
-## Pumpfun Smart Contract ⚓
-Pump.fun smart contract clone that works just like pump.fun site, like pump.fun, this smart contract creates the pool on contract, and make users to buy and sell from the pool.
-And at some point, it can go to Raydium under some predefined condition
+# Pump.fun Smart Contract
 
+![image](https://github.com/user-attachments/assets/24c9250c-d456-4967-85b5-c0e0cce697a3)
 
-You can see the deployed the contract in devnet here
-https://solscan.io/account/5mdPUgyK9mqosLtqZvfpY5pcpCqQBWHuS3XoU34CrJK3?cluster=devnet
+The Pump.fun Smart Contract is the Rust/Anchor smart contract for Pump.fun. The pump.fun smart contract facilitates various decentralized finance (DeFi) functionalities, including adding virtual Liquidity Provider (LP) tokens, removing LP tokens, and creating Raydium Pools.
 
-In here, you can see the creation transaction, buy and sell transaction and withdraw transaction
+## Functions
 
-## Environement and Development ⚙️
-- For the one who want to clone the project, need to setup as following
-```
-    - anchor : v0.29.0
-    - solana : v1.17.14
-    - rustc : v1.75.0 
-```
-- Here's IDL structure of original pump.fun and new forked pump.fun project I have completed
-<pre>
-https://github.com/Rabnail-SOL/Solana-Pumpfun-Smart-Contract-Forking/blob/main/target/deploy/bonding_curve.json 
+1. Add Virtual LP
+   This function allows users to add virtual liquidity to the Pump.fun platform. This increases the liquidity of the pool without requiring actual token deposits. This function is crucial for simulating and testing liquidity scenarios.
+2. Remove LP
+   This function enables users to remove liquidity from the Pump.fun platform. This reduces the liquidity of the pool and allows users to withdraw their LP tokens.
+3. Create Raydium Pool
+   The create_raydium_pool function allows users to create a new pool on the Raydium platform. This pool will facilitate decentralized trading and liquidity provision.
 
-https://github.com/Rabnail-SOL/Solana-Pumpfun-Smart-Contract-Forking/blob/main/target/deploy/pump-fun-IDL_original.json
-</pre>
+## Getting Started
 
+1. git clone https://github.com/lilmoat/solana-pump-fun-smart-contract
+2. cd solana-pump-fun-smart-contract
+3. cargo build
+4. anchor deploy
 
-## Recording of pumpfun smart contract test process
+## Contact
 
-https://github.com/user-attachments/assets/54606cb9-3be0-49a9-a92d-2759d0648f4b
-
-
-### Raydium migration and other detailed code are reserved for private, you can contact me for more understanding about the project and other features
-
-### 👤 Author
-#### Twitter: [@Rabnail_SOL](https://twitter.com/Rabnail_SOL)   
-#### Telegram: [@Rabnail_SOL](https://t.me/Rabnail_SOL)   
-
-
-
-
-
+Twitter: @0xLilMoat
+Telegram: @lilm0at
