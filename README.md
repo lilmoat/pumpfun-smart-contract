@@ -1,6 +1,5 @@
 ## Pumpfun Smart Contract ⚓
-Pump.fun smart contract clone that works just like pump.fun site.
-Like pump.fun, this smart contract creates the pool on contract, and make users to buy and sell from the pool.
+Pump.fun smart contract clone that works just like pump.fun site, like pump.fun, this smart contract creates the pool on contract, and make users to buy and sell from the pool.
 And at some point, it can go to Raydium under some predefined condition
 
 
