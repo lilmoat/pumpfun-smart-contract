@@ -21,6 +21,4 @@ The Pump.fun Smart Contract is the Rust/Anchor smart contract for Pump.fun. The 
 4. anchor deploy
 
 ## Contact
-
-Twitter: @0xLilMoat
-Telegram: @lilm0at
+Telegram: [@Oxlilmoat](https://t.me/Oxlilmoat)
